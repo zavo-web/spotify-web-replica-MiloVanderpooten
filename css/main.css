@@ -1,0 +1,42 @@
+.main{
+    background-color: var(--section-color);
+    border-radius: 24px;
+    padding: 12px;
+    overflow-y: scroll;
+   
+}
+.mainTitel{
+    all: unset;
+}
+.showMore{
+    all:unset
+}
+.albums{
+    display: flex ;
+    overflow: hidden;
+    float: left;
+}
+.albumArticle{
+    margin: 12px;
+    
+}
+.albumArticle *{
+    font-weight: 500;
+}
+.albumCover{
+    border-radius: 12px;
+    max-height: 200px;
+}
+.artiesten{
+    color: var(--text-secondary-color);
+}
+.mainFooter{
+    display: flex;
+    
+}
+.mainFooter *{
+    margin: 6px;
+}
+.socialIcon{
+    fill:var(--primary-color)
+}

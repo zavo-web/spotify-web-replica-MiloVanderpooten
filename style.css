@@ -1,0 +1,10 @@
+@import "./css/grid.css";
+@import "./css/color.css";
+@import "./css/header.css";
+@import "./css/sidebar.css";
+@import "./css/main.css";
+@import "./css/footer.css";
+@import "./fonts/font/stylesheet.css";
+body{
+    font-family: spotify mix;
+}

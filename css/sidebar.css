@@ -1,0 +1,56 @@
+.sidebar {
+  background-color: var(--section-color);
+  border-radius: 12px;
+}
+.sidebarTitel{
+  color: var(--text-secondary-color);
+  display: flex;
+}
+.libarySidebarIcon{
+  height: 24px;
+  fill: var(--text-secondary-color);
+  margin-left: 24px;
+  margin-top: 12px;
+  margin-right: 6px;
+}
+.sidebarVenster {
+  margin: 12px;
+  background-color: var(--tertiary-color);
+  border-radius: 12px;
+  padding: 12px;
+  font-style: it
+}
+.sidebarButton {
+  all: unset;
+  margin-top: 24px;
+  background-color: var(--primary-color);
+  border-radius: 24px;
+  padding: 6px;
+  color: var(--background-color);
+}
+.footerItem {
+  all: unset;
+  color: var(--text-secondary-color);
+}
+.sidebarFooterItem{
+  position: relative;
+  display: flex;
+  padding: 12px;
+  flex-wrap: wrap;
+}
+.sidebarFooter * {
+  margin: 6px;
+  flex-shrink: 0;
+}
+.languageIcon {
+  width: 24px;
+  fill: var(--primary-color);
+}
+.languageButton {
+  all: unset;
+  display: flex;
+  align-content: center;
+  border: 1px solid white;
+  padding: 12px;
+  border-radius: 20px;
+}

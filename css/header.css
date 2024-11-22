@@ -1,0 +1,67 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.header *{
+    display: flex;
+}
+.logo{
+    fill: var(--primary-color);
+    height: 36px;
+    margin-top: 6px;
+    margin-left: 12px;
+}
+
+
+.homeButton{
+    fill: var(--primary-color);
+    stroke: var(--primary-color);
+    height: 24px;;
+    padding: 12px;
+    background-color: var(--tertiary-color);
+    border-radius: 20px;
+    margin-right: 12px;
+    
+}
+.searchBar{
+    display:flex;
+    align-items: center;
+    border-radius: 38px;
+    height: 48px;
+    background-color: var(--tertiary-color);
+}
+.searchIcon{
+    height: 24px;
+    fill: var(--text-secondary-color);
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.searchInput{
+    all: unset;
+    background-color: var(--tertiary-color);
+    color: var(--primary-color);
+    width: 300px;
+}
+.libaryIcon{
+    height: 24px;
+    fill: var(--text-secondary-color);
+    margin-left: 12px;
+    margin-right: 12px;
+    padding-left: 6px;
+    border-left: 1px solid var(--text-secondary-color);
+}
+.headerSignupButton{
+    all:unset;
+    color: var(--text-secondary-color);
+    margin-right: 24px;
+    height: 24px;
+    padding:10px
+}
+.loginButton{
+    all:unset;
+    color: var(--section-color);
+    background-color: var(--primary-color);
+    border-radius: 24px;
+    padding:10px;
+    height: 24px;
+}
