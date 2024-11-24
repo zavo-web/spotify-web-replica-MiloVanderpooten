@@ -29,19 +29,22 @@
           </a>
         </section>
         <section class="headerCenter">
-          <a href="index.html">
-            <svg
-              data-encore-id="icon"
-              role="img"
-              aria-hidden="true"
-              viewBox="0 0 24 24"
-              class="homeButton"
-            >
-              <path
-                d="M13.5 1.515a3 3 0 0 0-3 0L3 5.845a2 2 0 0 0-1 1.732V21a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-6h4v6a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V7.577a2 2 0 0 0-1-1.732l-7.5-4.33z"
-              ></path>
-            </svg>
-          </a>
+          <section class="homeButton">
+            <a href="index.html">
+              <svg
+                data-encore-id="icon"
+                role="img"
+                aria-hidden="true"
+                viewBox="0 0 24 24"
+                class="homeButtonIcon"
+              >
+                <path
+                  d="M13.5 1.515a3 3 0 0 0-3 0L3 5.845a2 2 0 0 0-1 1.732V21a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-6h4v6a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V7.577a2 2 0 0 0-1-1.732l-7.5-4.33z"
+                ></path>
+              </svg>
+            </a>
+          </section>
+
           <form class="searchBar">
             <svg
               data-encore-id="icon"
@@ -96,15 +99,17 @@
           </svg>
           <h3>Your Libary</h3>
         </section>
-        <section class="sidebarVenster">
-          <h4>Create your first playlist</h4>
-          <p>Its easy, we'll help you</p>
-          <a href="" class="sidebarButton">Create playlist</a>
-        </section>
-        <section class="sidebarVenster">
-          <h4>Let's find some podcasts to follow</h4>
-          <p>We'll keep you updated on new episodes</p>
-          <a href="" class="sidebarButton">Create playlist</a>
+        <section class="SidebarItem">
+          <section class="sidebarVenster">
+            <h4>Create your first playlist</h4>
+            <p>Its easy, we'll help you</p>
+            <a href="" class="sidebarButton">Create playlist</a>
+          </section>
+          <section class="sidebarVenster">
+            <h4>Let's find some podcasts to follow</h4>
+            <p>We'll keep you updated on new episodes</p>
+            <a href="" class="sidebarButton">Create playlist</a>
+          </section>
         </section>
         <footer class="sidebarFooter">
           <section class="sidebarFooterItem">
@@ -115,7 +120,7 @@
             <a href="" class="footerItem"><h6>About Ads</h6></a>
             <a href="" class="footerItem"><h6>Accessibillity</h6></a>
           </section>
-          <h6><b>cookies</b></h6>
+          <h5><b class="cookie">Cookies</b></h5>
         </footer>
         <a href="" class="languageButton">
           <svg
@@ -129,12 +134,16 @@
               d="M8.152 16H8a8 8 0 1 1 .152 0zm-.41-14.202c-.226.273-.463.713-.677 1.323-.369 1.055-.626 2.496-.687 4.129h3.547c-.06-1.633-.318-3.074-.687-4.129-.213-.61-.45-1.05-.676-1.323-.194-.235-.326-.285-.385-.296h-.044c-.055.007-.19.052-.391.296zM4.877 7.25c.062-1.771.34-3.386.773-4.624.099-.284.208-.554.329-.806a6.507 6.507 0 0 0-4.436 5.43h3.334zm-3.334 1.5a6.507 6.507 0 0 0 4.436 5.43 7.974 7.974 0 0 1-.33-.806c-.433-1.238-.71-2.853-.772-4.624H1.543zm4.835 0c.061 1.633.318 3.074.687 4.129.214.61.451 1.05.677 1.323.202.244.336.29.391.297l.044-.001c.06-.01.19-.061.385-.296.226-.273.463-.713.676-1.323.37-1.055.626-2.496.687-4.129H6.378zm5.048 0c-.061 1.771-.339 3.386-.772 4.624-.082.235-.171.46-.268.674a6.506 6.506 0 0 0 4.071-5.298h-3.03zm3.031-1.5a6.507 6.507 0 0 0-4.071-5.298c.097.214.186.44.268.674.433 1.238.711 2.853.772 4.624h3.031z"
             ></path>
           </svg>
-          <b>english</b>
+          <b>English</b>
         </a>
       </aside>
       <main class="main">
-        <a href="" class="mainTitel"><h2>Popular albums and singles</h2></a>
-        <a href="" class="showMore"><h4>show more</h4></a>
+        <section class="mainTitel">
+          <a href="" class="mainTitelText"
+            ><h2>Popular albums and singles</h2></a
+          >
+          <a href="" class="showMore"><h4>show all</h4></a>
+        </section>
         <section class="albums">
           <article class="albumArticle">
             <img
@@ -142,8 +151,35 @@
               alt="album cover"
               class="albumCover"
             />
-            <h4>HIT ME HARD AND SOFT</h4>
-            <h5>Billie Eilish</h5>
+            <h4 class="albumTitel">HIT ME HARD AND SOFT</h4>
+            <h5 class="artiesten">Billie Eilish</h5>
+          </article>
+          <article class="albumArticle">
+            <img
+              src="https://i.scdn.co/image/ab67616d00001e0271d62ea7ea8a5be92d3c1f62"
+              alt="album cover"
+              class="albumCover"
+            />
+            <h4 class="albumTitel">HIT ME HARD AND SOFT</h4>
+            <h5 class="artiesten">Billie Eilish</h5>
+          </article>
+          <article class="albumArticle">
+            <img
+              src="https://i.scdn.co/image/ab67616d00001e0271d62ea7ea8a5be92d3c1f62"
+              alt="album cover"
+              class="albumCover"
+            />
+            <h4 class="albumTitel">HIT ME HARD AND SOFT</h4>
+            <h5 class="artiesten">Billie Eilish</h5>
+          </article>
+          <article class="albumArticle">
+            <img
+              src="https://i.scdn.co/image/ab67616d00001e0271d62ea7ea8a5be92d3c1f62"
+              alt="album cover"
+              class="albumCover"
+            />
+            <h4 class="albumTitel">HIT ME HARD AND SOFT</h4>
+            <h5 class="artiesten">Billie Eilish</h5>
           </article>
           <article class="albumArticle">
             <img
@@ -152,7 +188,7 @@
               class="albumCover"
             />
             <h4>HIT ME HARD AND SOFT</h4>
-            <h5>Billie Eilish</h5>
+            <h5 class="artiesten">Billie Eilish</h5>
           </article>
           <article class="albumArticle">
             <img
@@ -160,39 +196,14 @@
               alt="album cover"
               class="albumCover"
             />
-            <h4>HIT ME HARD AND SOFT</h4>
-            <h5>Billie Eilish</h5>
-          </article>
-          <article class="albumArticle">
-            <img
-              src="https://i.scdn.co/image/ab67616d00001e0271d62ea7ea8a5be92d3c1f62"
-              alt="album cover"
-              class="albumCover"
-            />
-            <h4>HIT ME HARD AND SOFT</h4>
-            <h5>Billie Eilish</h5>
-          </article>
-          <article class="albumArticle">
-            <img
-              src="https://i.scdn.co/image/ab67616d00001e0271d62ea7ea8a5be92d3c1f62"
-              alt="album cover"
-              class="albumCover"
-            />
-            <h4>HIT ME HARD AND SOFT</h4>
-            <h5>Billie Eilish</h5>
-          </article>
-          <article class="albumArticle">
-            <img
-              src="https://i.scdn.co/image/ab67616d00001e0271d62ea7ea8a5be92d3c1f62"
-              alt="album cover"
-              class="albumCover"
-            />
-            <h4>HIT ME HARD AND SOFT</h4>
+            <h4 class="albumTitel">HIT ME HARD AND SOFT</h4>
             <h5>Billie Eilish</h5>
           </article>
         </section>
-        <a href="" class="mainTitel"><h2>Popular radio</h2></a>
-        <a href="" class="showMore"><h4>show more</h4></a>
+        <section class="mainTitel">
+          <a href="" class="mainTitelText"><h2>Popular radio</h2></a>
+          <a href="" class="showMore"><h4>show all</h4></a>
+        </section>
         <section class="albums">
           <article class="albumArticle">
             <img
@@ -320,12 +331,14 @@
         </footer>
       </main>
       <footer class="footer">
-        <h4>Preview of spotify</h4>
-        <p>
-          Sign up to get unlimited songs and podcasts with occasional ads. No
-          credit card needed.
-        </p>
-        <a href="" class="loginButton"><b>Sign up for free</b></a>
+        <section>
+          <h4>Preview of spotify</h4>
+          <p class="footerText">
+            Sign up to get unlimited songs and podcasts with occasional ads. No
+            credit card needed.
+          </p>
+        </section>
+        <a href="" class="loginButtonFooter"><b>Sign up for free</b></a>
       </footer>
     </section>
   </body>

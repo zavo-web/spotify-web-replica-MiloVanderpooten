@@ -14,14 +14,16 @@
 
 
 .homeButton{
+    border-radius: 50%;
+    margin-right: 12px;
+    padding: 12px;
+    background-color: var(--tertiary-color);
+    height: fit-content;
+}
+.homeButtonIcon{
     fill: var(--primary-color);
     stroke: var(--primary-color);
     height: 24px;;
-    padding: 12px;
-    background-color: var(--tertiary-color);
-    border-radius: 20px;
-    margin-right: 12px;
-    
 }
 .searchBar{
     display:flex;
@@ -41,6 +43,8 @@
     background-color: var(--tertiary-color);
     color: var(--primary-color);
     width: 300px;
+    font-size: 1rem;
+    font-weight: 400;
 }
 .libaryIcon{
     height: 24px;
