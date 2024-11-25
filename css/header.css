@@ -64,13 +64,17 @@ body{
     color: var(--text-secondary-color);
     margin-right: 24px;
     height: 24px;
-    padding:10px
+    padding:10px;
+    font-weight: 700;
+    font-size: 1rem;
 }
 .loginButton{
     all:unset;
     color: var(--section-color);
     background-color: var(--primary-color);
     border-radius: 24px;
-    padding:10px;
+    padding:12px 32px;
     height: 24px;
+    font-weight: 700;
+    font-size: 1rem;
 }
