@@ -16,6 +16,10 @@ body{
     margin-top: 6px;
     margin-left: 12px;
 }
+.headerCenter{
+    padding-left: 120px;
+
+}
 
 
 .homeButton{
@@ -27,7 +31,6 @@ body{
 }
 .homeButtonIcon{
     fill: var(--primary-color);
-    stroke: var(--primary-color);
     height: 24px;;
 }
 .searchBar{
@@ -47,7 +50,7 @@ body{
     all: unset;
     background-color: var(--tertiary-color);
     color: var(--primary-color);
-    width: 300px;
+    width: 362px;
     font-size: 1rem;
     font-weight: 400;
 }

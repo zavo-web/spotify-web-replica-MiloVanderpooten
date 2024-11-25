@@ -3,6 +3,8 @@
   border-radius: 6px;
   display: flex;
   flex-direction: column;
+  max-height: 100%;
+  min-width: 360px;
 }
 .sidebarTitel{
   color: var(--text-secondary-color);
@@ -30,10 +32,11 @@
   background-color: var(--tertiary-color);
   border-radius: 12px;
   padding: 12px;
-
 }
 .sidebarItem{
-	height: 100vh;
+	min-height: 132px;
+  overflow: auto;
+ margin-bottom: 36px; 
 }
 .sidebarButton {
   all: unset;
@@ -49,6 +52,11 @@
   all: unset;
   color: var(--text-secondary-color);
 }
+.fullSidebarFooter{
+  position: relative;
+  margin-top: auto;
+  margin-bottom: 36px;
+}
 .sidebarFooter * {
   all: unset;
   flex-shrink: 0;
@@ -60,11 +68,13 @@
   position: relative;
   display: flex;
   flex-wrap: wrap;
+  
 }
 .sidebarFooterItem > li{
   all:unset;
   color: var(--text-secondary-color);
   margin-right: 16px;
+  margin-bottom: 6px;
 }
 
 

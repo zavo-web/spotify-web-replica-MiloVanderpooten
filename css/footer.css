@@ -5,7 +5,10 @@
     display: flex;
     align-items: center;
     padding-left: 12px;
-    
+    margin-top: 12px;
+}
+.footer * {
+    margin: 6px;
 }
 .loginButtonFooter{
     all: unset;
