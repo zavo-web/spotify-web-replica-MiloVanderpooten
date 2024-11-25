@@ -1,13 +1,18 @@
+body{
+    overflow: hidden;
+}
 .header{
     display: flex;
     justify-content: space-between;
+    height: 52px;
 }
+
 .header *{
     display: flex;
 }
 .logo{
     fill: var(--primary-color);
-    height: 36px;
+    height: 30px;
     margin-top: 6px;
     margin-left: 12px;
 }
