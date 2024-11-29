@@ -4,6 +4,7 @@
   display: flex;
   flex-direction: column;
   min-width: 360px;
+  height: 100%;
 }
 .sidebarTitel{
   color: var(--text-secondary-color);
@@ -25,7 +26,7 @@
     margin-top: 18px;
 }
 .sidebarItem{
-  max-height: 50%;
+  max-height: calc(100%-80px);
   overflow-y: scroll;
   scrollbar-color: hsla(0, 0%, 100%, .3) transparent;
   scrollbar-width: auto;
@@ -57,7 +58,8 @@
 .fullSidebarFooter{
   position: relative;
   margin-top: auto;
-  margin-bottom: 36px;
+  margin-bottom: 16px;
+  height: 120px;
 }
 .sidebarFooter * {
   all: unset;

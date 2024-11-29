@@ -1,7 +1,6 @@
 .main {
-  background: #b3b3b3;
-  background: linear-gradient(180deg, #b3b3b3 0%, rgba(18, 18, 18, 1) 69%);
-  background-color: rgb(#fff);
+  background: #1f1f1f;
+  background: linear-gradient(180deg, #1f1f1f 0%, rgba(18, 18, 18, 1) 69%);
   background-color: linear-gradient(
     180deg,
     rgba(#fff, 1) 0%,
@@ -67,7 +66,10 @@
   font-size: 0.8125rem;
   font-weight: 400;
 }
-
+main-wrapper section:last-child{
+    margin-bottom: 24px;
+    border:white, solid, 2px
+}
 .mainFooter {
   color: var(--text-secondary-color);
   display: flex;
@@ -76,7 +78,7 @@
   width: 100%;
   border-bottom: 1px solid var(--tertiary-color);
   padding-bottom: 24px;
-  margin-top: 36px;
+  margin-top: 72px;
 }
 .mainFooter * {
   width: fit-content;
