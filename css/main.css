@@ -1,5 +1,7 @@
 .main{
-    background-color: var(--section-color);
+    background: #b3b3b3;
+    background: linear-gradient(180deg, #b3b3b3 0%, rgba(18,18,18,1) 69%);background-color: rgb(#fff);
+    background-color: linear-gradient(180deg, rgba(#fff,1) 0%, rgba(18,18,18,1) 69%);
     border-radius: 6px;
     padding: 12px;
     overflow-y: scroll;
@@ -8,7 +10,6 @@
     scrollbar-width: auto;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
 }
 .mainTitel{
     display: flex;
