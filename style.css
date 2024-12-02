@@ -8,3 +8,22 @@
 body{
     font-family: spotify mix;
 }
+
+.stdHover:hover{
+    scale: 1.03;
+    transition: all, 0.1s;
+    cursor: pointer;
+}
+.hoverWhite:hover{
+    color: white;
+    fill: white; 
+    cursor: pointer;
+}
+.hoverBg:hover{
+    background-color: var(--tertiary-color-hover);
+    cursor: pointer;
+}
+.hoverUnderLine:hover{
+    text-decoration-line:underline ;
+    cursor: pointer;
+}
